@@ -1,7 +1,7 @@
 # CodonSearch
 
 ## Скриншот
-![Screenshot](https://github.com/Blazzerrr/CodonSearch/blob/master/image.png) 
+![Screenshot](https://github.com/Blazzerrr/CodonSearch/blob/main/image.png)
 
 ## Описание
 Web-сервис поиска кодона в ДНК
