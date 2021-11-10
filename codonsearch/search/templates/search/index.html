@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Поиск кодона в цепочке ДНК</title>
+
+        <link rel="icon" type="image/png" href="{% static "img/icon.png" %}" />
+        <link rel="stylesheet" href="{% static "css/style.css" %}" />
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="{% static "js/script.js" %}"></script>
+    </head>
+  
+    <body>
+        <h1>CodonSearch</h1>
+
+        <div class="container">
+            <div class="block_search">
+                <p>
+                    <label for="combination">Введите вашу комбинацию генов:</label> 
+                    <input type="text" name="input_search" autocomplete="current-password" required="text" id="combination">
+                </p>
+
+                <button id="submit" type="submit">Проверить</button>
+
+                <div id="result"></div>
+            </div>
+        </div>
+    </body>
+</html>
